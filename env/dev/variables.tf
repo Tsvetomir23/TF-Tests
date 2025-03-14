@@ -10,3 +10,10 @@ variable "tags" {
   sensitive   = false
   default     = {}
 }
+
+variable "suffix" {
+  description = "Specifies the name suffix of the Azure resources"
+  type        = string
+  sensitive   = false
+  default     = ""
+}
