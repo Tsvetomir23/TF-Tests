@@ -13,6 +13,6 @@ variable "tags" {
 
 variable "suffix" {
   description = "Specifies the name suffix of the Azure resources"
-  type = string
-  sensitive = false
+  type        = string
+  sensitive   = false
 }
